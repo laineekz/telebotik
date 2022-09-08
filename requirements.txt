@@ -1,3 +1,4 @@
 telebot
 datetime
 pytelegrambotapi
+pyowm

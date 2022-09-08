@@ -56,7 +56,7 @@ def send_text(message):
         city = message
 
         observation = mgr.weather_at_place(city.text)
-
+   ######################
 
         weather = observation.weather
         bot.send_message(message.chat.id, f"Погода в городе: {city.text}")
